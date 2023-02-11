@@ -1,0 +1,8 @@
+{
+    "imports": {
+        "faunadb": "https://esm.sh/faunadb@4.7.1",
+        "faunadb/": "https://esm.sh/faunadb@4.7.1/",
+        "fauna-gql-upload": "npm:fauna-gql-upload"
+
+    }
+}

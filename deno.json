@@ -1,0 +1,22 @@
+{
+  "tasks": {
+    "start": "deno run -A --watch=static/,routes/ dev.ts",
+    "codegen": "deno run -A fauna/codegen.ts && deno fmt ./fauna/",
+    "fauna-push": "npx fauna-gql-upload upload",
+    "fauna-init": "deno npm:fauna-gql-upload init"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact",
+    "types": [
+      "./fauna/types.d.ts"
+    ]
+  },
+  "importMap": "./import_map.json",
+  "fmt": {
+    "options": {
+      "singleQuote": true,
+      "semiColons": false
+    }
+  }
+}

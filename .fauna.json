@@ -1,0 +1,5 @@
+{
+  "$schema": "node_modules/fauna-gql-upload/config.schema.json",
+  "schemaDir": "fauna/schema",
+  "region": "us"
+}
